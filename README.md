@@ -1,19 +1,5 @@
 # Project-Machine
 ## Project
-
-### Kick off
-
-Projects kick off at Week 5, exercise session.
-
-### Forming groups
-
-Each group 3 students.
-
-Forming groups:
-- https://docs.qq.com/doc/DT2xqVHphanhGUWpR
-
-At most ONE group could have 2 or 4 students, provided that `N_Student % 3 != 0`.
-
 ### Get inspired
 
 - https://www.tensorflow.org/js/demos
@@ -84,5 +70,3 @@ Deadline for submission:
 - Best projects' videos will be included on Lunde Chen's bilibili channel.
 - Lunde Chen might invite you to participate in innovation competitions with your projects.
 
-### Last but not least
-Your app should be legal, ethical.
