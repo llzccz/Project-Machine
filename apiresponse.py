@@ -2,7 +2,7 @@ import os
 import openai
 
  #api key 密钥需前往openai官网获取，每个人都不一样
-openai.api_key ="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" 
+openai.api_key ="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" 
 
  #content后输入问题
 response = openai.ChatCompletion.create(
