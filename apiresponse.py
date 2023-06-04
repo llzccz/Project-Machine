@@ -1,28 +1,16 @@
 import os
 import openai
-
+import text
  #api key 密钥需前往openai官网获取，每个人都不一样
-openai.api_key ="" 
+openai.api_key ="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" 
 
  #content后输入问题
 response = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
-    {"role": "user", "content": "# 表示中央主题，## 表示主要主题，### 表示子主题，﹣表示叶子节点,请参照以上格式在 markdown 代码块中帮我创建一个有效的思维导图,以markdown代码块格式输出(java学习路线要详细,包括基础,面向对象,网络编程,多线程,MySQL数据库,java web,前端基础,spring,springmvc,springboot等等"}
+    {"role": "user", "content": text.text}
   ]
 )
 
-#得到直接回答
 result = response.choices[0].message.content
-
-
-
-response2 = openai.ChatCompletion.create(
-  model="gpt-3.5-turbo",
-  messages=[
-    {"role": "user", "content": result}
-  ]
-)
-
-result2 = response2.choices[0].message.content
-print(result2)
+print(result)
