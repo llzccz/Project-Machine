@@ -1,5 +1,5 @@
 # Project-Machine
-# link for vedio: https://www.bilibili.com/video/BV1jc411r7YF/?spm_id_from=444.41.list.card_archive.click&vd_source=24e35e6aef4a2d9ce34446a159ec65ec
+link for the introduction vedio: https://www.bilibili.com/video/BV1jc411r7YF/?spm_id_from=444.41.list.card_archive.click&vd_source=24e35e6aef4a2d9ce34446a159ec65ec
 ## 配置
 1.[安装BBDOWN插件](https://github.com/nilaoda/BBDown "bilibili视频命令行下载器")（感谢这个小众又高效的插件），或者解压仓库中BBDown压缩包，里面是同样的内容
 
